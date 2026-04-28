@@ -98,9 +98,25 @@ const PremiumComponentsLists: IPremiumComponentsLists[] = [
   },
 ];
 
+const ReviewList: IReviewList[] = [
+  {
+    comment:
+      "\"The most professional plumbing firm I've worked with. They managed our commercial building's system overhaul with absolute precision and kept us updated at every step.\"",
+    by: "Sarah Jenkins",
+    position: "Facility Manager, Nexus Corp",
+  },
+  {
+    comment:
+      '"Prompt, courteous, and efficient. Iplumb handled our bathroom renovation flawlessly. The quality of the construction work is simply unmatched in the local area."',
+    by: "Michael Thorne",
+    position: "Homeowner, River Oaks",
+  },
+];
+
 export {
   NavbarLinks,
   ServiceArticleLists,
   WhyChooseIplumbReasons,
   PremiumComponentsLists,
+  ReviewList
 };

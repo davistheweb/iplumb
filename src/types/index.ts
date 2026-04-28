@@ -39,5 +39,12 @@ declare global {
   }
 
   type TPremiumComponentsListsProps = IPremiumComponentsLists;
+  interface IReviewList {
+    comment: string;
+    by: string;
+    position: string;
+  }
+
+  type TReviewListProps = IReviewList;
 }
 export {};
