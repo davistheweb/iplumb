@@ -1,3 +1,4 @@
+import { ComponentType, SVGProps } from "react";
 declare global {
   interface INavbarLinks {
     name: string;
@@ -8,5 +9,15 @@ declare global {
     href: string;
     handleNavClick?: () => void;
   }
+
+  interface IServiceArticleLists {
+    Icon: ComponentType<SVGProps<SVGSVGElement>>;
+    iconColor: string;
+    title: string;
+    subtitle: string;
+    features: string[];
+  }
+
+  type TServicesArticleProps = IServiceArticleLists;
 }
 export {};

@@ -10,7 +10,7 @@ import { Menu } from "lucide-react";
 export const Navbar: React.FC = () => {
   const [navIsOpen, setNavIsOpen] = useState<boolean>(false);
   return (
-    <nav className="flex bg-[#fffbfb] justify-between items-center top-0 left-0 w-full py-6 px-4 md:px-20 h-20 z-10">
+    <nav className="fixed flex bg-[#fffbfb] justify-between items-center top-0 left-0 right-0 w-full py-6 px-4 md:px-20 h-20 z-10">
       <div className="flex justify-center">
         <Logo />
       </div>
@@ -33,7 +33,7 @@ export const Navbar: React.FC = () => {
       {/* Request Quote Button  */}
 
       <div className="hidden lg:flex">
-        <button className="font-sans font-bold text-white bg-[#EF8300] px-4 py-2 rounded-sm cursor-pointer ">
+        <button className="font-bold text-white uppercase bg-[#EF8300] px-4 py-2 rounded-sm cursor-pointer ">
           Request Quote
         </button>
       </div>

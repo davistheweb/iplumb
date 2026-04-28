@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${wrk_sans.className} h-full antialiased`}>
-      <body className="min-h-full flex flex-col">
+      <body className="relative w-full flex flex-col justify-center max-w-506 overflow-x-hidden">
         <Navbar />
         {children}
       </body>

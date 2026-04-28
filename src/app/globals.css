@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+@layer utilities {
+  .hero-background {
+    background:
+      linear-gradient(
+        90deg,
+        rgba(0, 32, 70, 1) 0%,
+        rgba(0, 32, 70, 0.8) 50%,
+        rgba(0, 32, 70, 0) 100%
+      ), url("../assets/home/backgroundImage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
