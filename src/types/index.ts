@@ -19,5 +19,12 @@ declare global {
   }
 
   type TServicesArticleProps = IServiceArticleLists;
+  interface IWhyChooseIplumbReasons {
+    Icon: ComponentType<SVGProps<SVGSVGElement>>;
+    title: string;
+    subtitle: string;
+  }
+
+  type TWhyChooseIplumbReasonsProps = IWhyChooseIplumbReasons;
 }
 export {};

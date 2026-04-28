@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import CustomBookIcon from "../icons/CustomBookIcon";
 
 export const Hero: React.FC = () => {
   return (
@@ -21,9 +22,9 @@ export const Hero: React.FC = () => {
         <div className="flex items-start flex-col md:flex-row gap-4">
           <Link
             href="#"
-            className="bg-[#EF8300] text-white px-8 pt-[17.5px] pb-4.5 rounded-lg"
+            className="bg-[#EF8300] text-white px-8 pt-[17.5px] pb-4.5 rounded-lg flex gap-1 items-center"
           >
-            Book a Service
+            Book a Service <CustomBookIcon size={15} />
           </Link>
           <Link
             href="#"

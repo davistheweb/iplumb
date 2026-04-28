@@ -1,6 +1,9 @@
+import EstimatesIcon from "@/components/icons/EstimatesIcon";
 import PlumberBuildingIcon from "@/components/icons/PlumberBuildingIcon";
 import PlumberSpannerIcon from "@/components/icons/PlumberSpannerIcon";
 import PlumberWrenchesIcon from "@/components/icons/PlumberWrenchesIcon";
+import TrustCheckIcon from "@/components/icons/TrustCheckIcon";
+import WarrantyIcon from "@/components/icons/WarrantyIcon";
 
 const NavbarLinks: INavbarLinks[] = [
   {
@@ -43,4 +46,25 @@ const ServiceArticleLists: IServiceArticleLists[] = [
   },
 ];
 
-export { NavbarLinks, ServiceArticleLists };
+const WhyChooseIplumbReasons: IWhyChooseIplumbReasons[] = [
+  {
+    Icon: TrustCheckIcon,
+    title: "Certified Precision",
+    subtitle:
+      "Every technician is fully licensed and undergoes rigorous safety training. We don't just fix; we engineer for longevity.",
+  },
+  {
+    Icon: EstimatesIcon,
+    title: "Transparent Estimates",
+    subtitle:
+      'No hidden fees or "surprise" surcharges. You receive a detailed line-item quote before any work begins on your property.',
+  },
+  {
+    Icon: WarrantyIcon,
+    title: "Heritage Warranty",
+    subtitle:
+      "We stand by our craftsmanship with a multi-year warranty on all structural and plumbing labor.",
+  },
+];
+
+export { NavbarLinks, ServiceArticleLists, WhyChooseIplumbReasons };

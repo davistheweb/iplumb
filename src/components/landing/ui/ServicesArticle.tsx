@@ -9,7 +9,7 @@ export const ServicesArticle: React.FC<TServicesArticleProps> = ({
   features,
 }) => {
   return (
-    <div className="bg-[#FFFFFF] px-8 pt-8 pb-16 rounded-xl shadow-lg flex flex-col items-center justify-center gap-3">
+    <article className="bg-[#FFFFFF] px-8 pt-8 pb-16 rounded-xl shadow-lg flex flex-col items-center justify-center gap-3">
       <div className="w-full items-start pb-2">
         <div className="bg-[#F3F4F5] h-14 w-14 flex items-center justify-center rounded-md">
           <Icon color={iconColor} />
@@ -32,6 +32,6 @@ export const ServicesArticle: React.FC<TServicesArticleProps> = ({
           ))}
         </div>
       </div>
-    </div>
+    </article>
   );
 };

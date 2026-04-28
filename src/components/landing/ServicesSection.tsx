@@ -2,10 +2,11 @@ import { ServiceArticleLists } from "@/data";
 import { ArrowRight } from "lucide-react";
 import React from "react";
 import { ServicesArticle } from "./ui/ServicesArticle";
+import Link from "next/link";
 
 export const ServicesSection: React.FC = () => {
   return (
-    <section className="relative h-full w-full pt-15 px-8 items-center bg-[#F8F9FA] pb-5">
+    <section className="relative h-full w-full pt-15 px-8 items-center bg-[#F8F9FA] pb-10">
       <div className="w-full h-full flex flex-col gap-1 justify-center items-center md:items-start">
         <h1 className="text-[#002046] text-xl text-center md:text-start">
           Comprehensive Technical Solutions
@@ -15,7 +16,9 @@ export const ServicesSection: React.FC = () => {
           experts deliver results backed by industry-leading warranties.
         </p>
         <div className="w-full h-full gap-1 hidden md:flex align-middle justify-end items-center ">
-          <span className="text-[#AF2B3E]">EXPLORE ALL SERVICES </span>{" "}
+          <Link className="text-[#AF2B3E]" href="#">
+            EXPLORE ALL SERVICES{" "}
+          </Link>{" "}
           <ArrowRight color="#AF2B3E" size={20} />
         </div>
       </div>
