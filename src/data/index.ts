@@ -1,9 +1,13 @@
 import EstimatesIcon from "@/components/icons/EstimatesIcon";
+import FiltrateIcon from "@/components/icons/FiltrateIcon";
+import MixerIcon from "@/components/icons/MixerIcon";
 import PlumberBuildingIcon from "@/components/icons/PlumberBuildingIcon";
 import PlumberSpannerIcon from "@/components/icons/PlumberSpannerIcon";
 import PlumberWrenchesIcon from "@/components/icons/PlumberWrenchesIcon";
+import SealedPipeIcon from "@/components/icons/SealedPipeIcon";
 import TrustCheckIcon from "@/components/icons/TrustCheckIcon";
 import WarrantyIcon from "@/components/icons/WarrantyIcon";
+import { HeaterIcon } from "lucide-react";
 
 const NavbarLinks: INavbarLinks[] = [
   {
@@ -67,4 +71,36 @@ const WhyChooseIplumbReasons: IWhyChooseIplumbReasons[] = [
   },
 ];
 
-export { NavbarLinks, ServiceArticleLists, WhyChooseIplumbReasons };
+const PremiumComponentsLists: IPremiumComponentsLists[] = [
+  {
+    Icon: MixerIcon,
+    name: "Premium Line",
+    description: "Elite Series Mixer",
+    link: "#",
+  },
+  {
+    Icon: HeaterIcon,
+    name: "EFFICIENCY PLUS",
+    description: "Smart Water Heater",
+    link: "#",
+  },
+  {
+    Icon: FiltrateIcon,
+    name: "MAINTENANCE",
+    description: "Flitration Core V3",
+    link: "#",
+  },
+  {
+    Icon: SealedPipeIcon,
+    name: "STRUCTURAL",
+    description: "Sealed Pipe KitII",
+    link: "#",
+  },
+];
+
+export {
+  NavbarLinks,
+  ServiceArticleLists,
+  WhyChooseIplumbReasons,
+  PremiumComponentsLists,
+};

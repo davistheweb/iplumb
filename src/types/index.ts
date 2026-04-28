@@ -26,5 +26,18 @@ declare global {
   }
 
   type TWhyChooseIplumbReasonsProps = IWhyChooseIplumbReasons;
+
+  interface IPremiumComponentsLists {
+    Icon: ComponentType<
+      SVGProps<SVGSVGElement> & {
+        size?: number;
+      }
+    >;
+    name: string;
+    description: string;
+    link: string;
+  }
+
+  type TPremiumComponentsListsProps = IPremiumComponentsLists;
 }
 export {};

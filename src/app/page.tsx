@@ -1,4 +1,5 @@
 import { Hero } from "@/components/landing/Hero";
+import { PremiumComponents } from "@/components/landing/PremiumComponents";
 import { ServicesSection } from "@/components/landing/ServicesSection";
 import { WhyChooseIplumb } from "@/components/landing/WhyChooseIplumb";
 import Image from "next/image";
@@ -9,6 +10,7 @@ export default function Home() {
       <Hero />
       <ServicesSection />
       <WhyChooseIplumb />
+      <PremiumComponents />
     </div>
   );
 }

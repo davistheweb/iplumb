@@ -6,7 +6,7 @@ import { WhyIplumbLists } from "./ui/WhyIplumbLists";
 
 export const WhyChooseIplumb: React.FC = () => {
   return (
-    <section className="w-full flex flex-col-reverse lg:flex-row justify-center items-center h-full pt-10 px-8 pb-5 gap-15 bg-[#F3F4F5]">
+    <section className="w-full flex flex-col-reverse lg:flex-row justify-center items-center h-full pt-10 px-8 pb-10 gap-15 bg-[#F3F4F5]">
       <div className="relative flex">
         <Image
           src={WhyChooseIplumbImage}
