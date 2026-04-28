@@ -113,10 +113,21 @@ const ReviewList: IReviewList[] = [
   },
 ];
 
+const FooterLinks: IFooterLinks[] = [
+  {
+    name: "Privacy Policy",
+    href: "#",
+  },
+  { name: "Terms of Service", href: "#" },
+  { name: "Safety Standards", href: "#" },
+  { name: "Warranty", href: "#" },
+];
+
 export {
   NavbarLinks,
   ServiceArticleLists,
   WhyChooseIplumbReasons,
   PremiumComponentsLists,
-  ReviewList
+  ReviewList,
+  FooterLinks,
 };

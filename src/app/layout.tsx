@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Work_Sans } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/navbar";
+import { Footer } from "@/components/ui/Footer";
+import { ReachOut } from "@/components/ui/ReachOut";
 
 const wrk_sans = Work_Sans({
   subsets: ["latin"],
@@ -22,6 +24,8 @@ export default function RootLayout({
       <body className="relative w-full flex flex-col justify-center max-w-506 overflow-x-hidden">
         <Navbar />
         {children}
+        <ReachOut />
+        <Footer />
       </body>
     </html>
   );

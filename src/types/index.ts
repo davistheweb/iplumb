@@ -46,5 +46,10 @@ declare global {
   }
 
   type TReviewListProps = IReviewList;
+
+  interface IFooterLinks {
+    name: string;
+    href: string;
+  }
 }
 export {};
