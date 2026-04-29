@@ -1,4 +1,4 @@
-import React, { SVGProps } from "react";
+import { SVGProps } from "react";
 
 interface SealedPipeIconProps extends SVGProps<SVGSVGElement> {
   size?: `${number}` | number;

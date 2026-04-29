@@ -14,7 +14,7 @@ export const NavLinks: React.FC<INavLinksProps> = ({
       <Link
         href={href}
         onClick={handleNavClick}
-        className={`lg:after:absolute after:w-18 after:h-0.75 text-[14px] xl:text-[16px] ${isActive ? " after:bg-[#F97316] after:bottom-0 after:content[''] ease-in duration-500 transition-all after:left-0 after:right-0" : " hover:after:bg-[#F97316] hover:after:bottom-0 hover:after:content[''] ease-in hover:duration-500 hover:transition-all hover:after:left-0 hover:after:right-0"}`}
+        className={`text-[14px] after:h-0.75 after:w-18 lg:after:absolute xl:text-[16px] ${isActive ? "after:content[''] transition-all duration-500 ease-in after:right-0 after:bottom-0 after:left-0 after:bg-[#F97316]" : "hover:after:content[''] ease-in hover:transition-all hover:duration-500 hover:after:right-0 hover:after:bottom-0 hover:after:left-0 hover:after:bg-[#F97316]"}`}
       >
         {children}
       </Link>

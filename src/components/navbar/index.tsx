@@ -1,28 +1,28 @@
 "use client";
 
+import { NavbarLinks } from "@/data";
+import { Menu } from "lucide-react";
 import React, { useState } from "react";
 import { Logo } from "../ui/Logo";
-import { NavbarLinks } from "@/data";
-import { NavLinks } from "./NavLinks";
 import { MobileNav } from "./MobileNav";
-import { Menu } from "lucide-react";
+import { NavLinks } from "./NavLinks";
 
 export const Navbar: React.FC = () => {
   const [navIsOpen, setNavIsOpen] = useState<boolean>(false);
   return (
-    <nav className="fixed flex bg-[#fffbfb] justify-between items-center top-0 left-0 right-0 w-full py-6 px-4 md:px-20 h-20 z-10">
+    <nav className="fixed top-0 right-0 left-0 z-10 flex h-20 w-full items-center justify-between bg-[#fffbfb] px-4 py-6 md:px-20">
       <div className="flex justify-center">
         <Logo />
       </div>
 
       {/* Desktop Navigation  */}
 
-      <div className="hidden lg:flex justify-between items-center">
+      <div className="hidden items-center justify-between lg:flex">
         <ul className="relative flex space-x-10 font-sans">
           {NavbarLinks.map(({ name, href }, i) => (
             <li
               key={i}
-              className="relative list-none md:text-base text-primary-bold text-[#1E3A8A] font-bold"
+              className="text-primary-bold relative list-none font-bold text-[#1E3A8A] md:text-base"
             >
               <NavLinks href={href}>{name}</NavLinks>
             </li>
@@ -33,15 +33,18 @@ export const Navbar: React.FC = () => {
       {/* Request Quote Button  */}
 
       <div className="hidden lg:flex">
-        <button className="font-bold text-white uppercase bg-[#EF8300] px-4 py-2 rounded-sm cursor-pointer ">
+        <button className="cursor-pointer rounded-sm bg-[#EF8300] px-4 py-2 font-bold text-white uppercase">
           Request Quote
         </button>
       </div>
 
-      <MobileNav navIsOpen={navIsOpen} setNavIsOpen={setNavIsOpen} />
+      <MobileNav
+        navIsOpen={navIsOpen}
+        setNavIsOpen={setNavIsOpen}
+      />
 
       <button
-        className="border p-2 rounded-sm lg:hidden cursor-pointer"
+        className="cursor-pointer rounded-sm border p-2 lg:hidden"
         onClick={(): void => setNavIsOpen((prev) => !prev)}
       >
         <Menu size={20} />

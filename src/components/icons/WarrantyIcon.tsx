@@ -1,4 +1,4 @@
-import React, { SVGProps } from "react";
+import { SVGProps } from "react";
 
 interface WarrantyIconProps extends SVGProps<SVGSVGElement> {
   size?: `${number}` | number;

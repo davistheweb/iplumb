@@ -124,10 +124,10 @@ const FooterLinks: IFooterLinks[] = [
 ];
 
 export {
+  FooterLinks,
   NavbarLinks,
-  ServiceArticleLists,
-  WhyChooseIplumbReasons,
   PremiumComponentsLists,
   ReviewList,
-  FooterLinks,
+  ServiceArticleLists,
+  WhyChooseIplumbReasons,
 };

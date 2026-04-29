@@ -1,28 +1,34 @@
 import { ServiceArticleLists } from "@/data";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 import React from "react";
 import { ServicesArticle } from "./ui/ServicesArticle";
-import Link from "next/link";
 
 export const ServicesSection: React.FC = () => {
   return (
-    <section className="relative h-full w-full pt-15 px-8 items-center bg-[#F8F9FA] pb-10">
-      <div className="w-full h-full flex flex-col gap-1 justify-center items-center md:items-start">
-        <h1 className="text-[#002046] text-xl text-center md:text-start">
+    <section className="relative h-full w-full items-center bg-[#F8F9FA] px-8 pt-15 pb-10">
+      <div className="flex h-full w-full flex-col items-center justify-center gap-1 md:items-start">
+        <h1 className="text-center text-xl text-[#002046] md:text-start">
           Comprehensive Technical Solutions
         </h1>
-        <p className="text-[#44474E] md:w-[512.7px] text-center md:text-start">
+        <p className="text-center text-[#44474E] md:w-[512.7px] md:text-start">
           From emergency repairs to large-scale construction, our licensed
           experts deliver results backed by industry-leading warranties.
         </p>
-        <div className="w-full h-full gap-1 hidden md:flex align-middle justify-end items-center ">
-          <Link className="text-[#AF2B3E]" href="#">
+        <div className="hidden h-full w-full items-center justify-end gap-1 align-middle md:flex">
+          <Link
+            className="text-[#AF2B3E]"
+            href="#"
+          >
             EXPLORE ALL SERVICES{" "}
           </Link>{" "}
-          <ArrowRight color="#AF2B3E" size={20} />
+          <ArrowRight
+            color="#AF2B3E"
+            size={20}
+          />
         </div>
       </div>
-      <div className="grid md:grid-cols-2 gap-10 lg:grid-cols-3 pt-10 h-full w-full ">
+      <div className="grid h-full w-full gap-10 pt-10 md:grid-cols-2 lg:grid-cols-3">
         {ServiceArticleLists.map(
           ({ Icon, iconColor, title, subtitle, features }, i) => (
             <ServicesArticle

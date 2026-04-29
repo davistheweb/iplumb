@@ -5,19 +5,22 @@ export const PremiumComponentsListView: React.FC<
   TPremiumComponentsListsProps
 > = ({ Icon, name, description, link }) => {
   return (
-    <div className="h-fit flex flex-col items-center justify-center border w-69.5 gap-10 pb-4 rounded-sm  relative border-[#E1E3E4]">
-      <div className="bg-[#EDEEEF] h-66.5 w-full flex items-center justify-center relative">
-        <span className="absolute cursor-pointer top-3 right-4">
-          <MoveUpRight size={20} color="#1E3A8A" />
+    <div className="relative flex h-fit w-69.5 flex-col items-center justify-center gap-10 rounded-sm border border-[#E1E3E4] pb-4">
+      <div className="relative flex h-66.5 w-full items-center justify-center bg-[#EDEEEF]">
+        <span className="absolute top-3 right-4 cursor-pointer">
+          <MoveUpRight
+            size={20}
+            color="#1E3A8A"
+          />
         </span>
         <Icon size={35} />
       </div>
       <div className="flex flex-col space-y-2">
-        <h1 className="text-[#191C1D] font-bold">{name}</h1>
+        <h1 className="font-bold text-[#191C1D]">{name}</h1>
         <p className="text-[#002046]">{description}</p>
         <a
           href={link}
-          className="bg-[#002046] text-white  text-center rounded-md py-3 w-57.5 h-12"
+          className="h-12 w-57.5 rounded-md bg-[#002046] py-3 text-center text-white"
         >
           Buy on Store
         </a>
