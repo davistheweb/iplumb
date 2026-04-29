@@ -1,4 +1,11 @@
+import { StaticImport } from "next/dist/shared/lib/get-img-props";
 import { ComponentType, SVGProps } from "react";
+
+type IconType = ComponentType<
+  SVGProps<SVGSVGElement> & {
+    size?: number;
+  }
+>;
 declare global {
   interface INavbarLinks {
     name: string;
@@ -11,7 +18,7 @@ declare global {
   }
 
   interface IServiceArticleLists {
-    Icon: ComponentType<SVGProps<SVGSVGElement>>;
+    Icon: IconType;
     iconColor: string;
     title: string;
     subtitle: string;
@@ -20,7 +27,7 @@ declare global {
 
   type TServicesArticleProps = IServiceArticleLists;
   interface IWhyChooseIplumbReasons {
-    Icon: ComponentType<SVGProps<SVGSVGElement>>;
+    Icon: IconType;
     title: string;
     subtitle: string;
   }
@@ -28,11 +35,7 @@ declare global {
   type TWhyChooseIplumbReasonsProps = IWhyChooseIplumbReasons;
 
   interface IPremiumComponentsLists {
-    Icon: ComponentType<
-      SVGProps<SVGSVGElement> & {
-        size?: number;
-      }
-    >;
+    Icon: IconType;
     name: string;
     description: string;
     link: string;
@@ -51,5 +54,15 @@ declare global {
     name: string;
     href: string;
   }
+
+  interface IPlumbingServices {
+    Icon: IconType;
+    img: StaticImport;
+    service: string;
+    description: string;
+    link: string;
+  }
+
+  type TPlumbingServicesProps = IPlumbingServices;
 }
 export {};

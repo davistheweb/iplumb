@@ -1,3 +1,9 @@
+import {
+  EmergencyRepairImage,
+  PreventiveCareImg,
+  SysInstallImg,
+} from "@/assets";
+import BookCheckIcon from "@/components/icons/BookCheckIcon";
 import EstimatesIcon from "@/components/icons/EstimatesIcon";
 import FiltrateIcon from "@/components/icons/FiltrateIcon";
 import MixerIcon from "@/components/icons/MixerIcon";
@@ -5,6 +11,7 @@ import PlumberBuildingIcon from "@/components/icons/PlumberBuildingIcon";
 import PlumberSpannerIcon from "@/components/icons/PlumberSpannerIcon";
 import PlumberWrenchesIcon from "@/components/icons/PlumberWrenchesIcon";
 import SealedPipeIcon from "@/components/icons/SealedPipeIcon";
+import SpannerIcon from "@/components/icons/SpannerIcon";
 import TrustCheckIcon from "@/components/icons/TrustCheckIcon";
 import WarrantyIcon from "@/components/icons/WarrantyIcon";
 import { HeaterIcon } from "lucide-react";
@@ -123,9 +130,37 @@ const FooterLinks: IFooterLinks[] = [
   { name: "Warranty Info", href: "#" },
 ];
 
+const PlumbingServicesLists: IPlumbingServices[] = [
+  {
+    Icon: SpannerIcon,
+    img: EmergencyRepairImage,
+    service: "Emergency Repairs",
+    description:
+      "Rapid response for leak detection, pipe bursts, and fixture failures. 24/7 priority service for critical issues.",
+    link: "#",
+  },
+  {
+    Icon: PlumberSpannerIcon,
+    img: SysInstallImg,
+    service: "System Installation",
+    description:
+      "Expert installation of water heaters, filtration systems, and premium bathroom/kitchen fixtures.",
+    link: "#",
+  },
+  {
+    Icon: BookCheckIcon,
+    img: PreventiveCareImg,
+    service: "Preventive Care",
+    description:
+      "Scheduled inspections and maintenance to prevent costly future failures and optimize system efficiency.",
+    link: "#",
+  },
+];
+
 export {
   FooterLinks,
   NavbarLinks,
+  PlumbingServicesLists,
   PremiumComponentsLists,
   ReviewList,
   ServiceArticleLists,
