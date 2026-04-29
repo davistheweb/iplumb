@@ -1,3 +1,4 @@
+import { ConstructionAndDevelopment } from "@/components/services/ConstructionAndDevelopment";
 import { PlumbingExcellence } from "@/components/services/PlumbingExcellence";
 import { ServiceHero } from "@/components/services/ServiceHero";
 
@@ -6,6 +7,7 @@ export default function Services() {
     <div className="h-full w-full overflow-x-hidden">
       <ServiceHero />
       <PlumbingExcellence />
+      <ConstructionAndDevelopment />
     </div>
   );
 }

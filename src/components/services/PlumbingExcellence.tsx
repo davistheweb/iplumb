@@ -11,7 +11,7 @@ export const PlumbingExcellence: React.FC = () => {
           provide end-to-end solutions for residential and commercial systems.
         </p>
       </div>
-      <div className="grid h-full w-full grid-cols-1 place-items-center gap-10 md:gap-5 md:grid-cols-2 xl:grid-cols-3">
+      <div className="grid h-full w-full grid-cols-1 place-items-center gap-10 md:grid-cols-2 md:gap-5 xl:grid-cols-3">
         {PlumbingServicesLists.map(
           ({ Icon, img, service, description, link }, i) => (
             <PlumbingServices

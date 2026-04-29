@@ -10,17 +10,19 @@ export const PlumbingServices: React.FC<TPlumbingServicesProps> = ({
 }) => {
   return (
     <div className="relative flex h-fit w-87.5 flex-col items-center justify-between gap-8 rounded-xl px-6 pb-8 shadow-xl md:w-[384px]">
-      <div className="relative flex md:w-95.5 w-87 items-center justify-center">
-        <span className="absolute md:top-3  top-5 left-4 flex h-[34.03px] w-[34.53px] cursor-pointer items-center justify-center rounded-md bg-white">
+      <div className="relative flex w-87 items-center justify-center md:w-95.5">
+        <span className="absolute top-5 left-4 flex h-[34.03px] w-[34.53px] cursor-pointer items-center justify-center rounded-md bg-white md:top-3">
           <Icon
             size={20}
             color="#AF2B3E"
+            fill="#AF2B3E"
           />
         </span>
         <Image
           src={img}
           alt="icon"
           className="rounded-xl"
+          draggable={false}
         />
       </div>
       <div className="flex flex-col space-y-5">
