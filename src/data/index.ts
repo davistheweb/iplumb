@@ -120,7 +120,7 @@ const FooterLinks: IFooterLinks[] = [
   },
   { name: "Terms of Service", href: "#" },
   { name: "Safety Standards", href: "#" },
-  { name: "Warranty", href: "#" },
+  { name: "Warranty Info", href: "#" },
 ];
 
 export {
