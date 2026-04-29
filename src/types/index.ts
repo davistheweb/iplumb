@@ -64,5 +64,13 @@ declare global {
   }
 
   type TPlumbingServicesProps = IPlumbingServices;
+
+  interface IStandardsList {
+    Icon: IconType;
+    standard: string;
+    description: string;
+  }
+
+  type TStandardsCardProps = IStandardsList;
 }
 export {};

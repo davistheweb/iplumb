@@ -4,14 +4,18 @@ import {
   SysInstallImg,
 } from "@/assets";
 import BookCheckIcon from "@/components/icons/BookCheckIcon";
+import CertifiedIcon from "@/components/icons/CertifiedIcon";
 import EstimatesIcon from "@/components/icons/EstimatesIcon";
 import FiltrateIcon from "@/components/icons/FiltrateIcon";
+import GuaranteedIcon from "@/components/icons/GuaranteedIcon";
 import MixerIcon from "@/components/icons/MixerIcon";
 import PlumberBuildingIcon from "@/components/icons/PlumberBuildingIcon";
 import PlumberSpannerIcon from "@/components/icons/PlumberSpannerIcon";
 import PlumberWrenchesIcon from "@/components/icons/PlumberWrenchesIcon";
+import PunctualIcon from "@/components/icons/PunctualIcon";
 import SealedPipeIcon from "@/components/icons/SealedPipeIcon";
 import SpannerIcon from "@/components/icons/SpannerIcon";
+import TransparentIcon from "@/components/icons/TransparentIcon";
 import TrustCheckIcon from "@/components/icons/TrustCheckIcon";
 import WarrantyIcon from "@/components/icons/WarrantyIcon";
 import { HeaterIcon } from "lucide-react";
@@ -157,6 +161,29 @@ const PlumbingServicesLists: IPlumbingServices[] = [
   },
 ];
 
+const StandardsList: IStandardsList[] = [
+  {
+    Icon: CertifiedIcon,
+    standard: "Certified",
+    description: "Fully licensed and bonded professionals.",
+  },
+  {
+    Icon: PunctualIcon,
+    standard: "Punctual",
+    description: "On-time arrival and strict project deadlines.",
+  },
+  {
+    Icon: TransparentIcon,
+    standard: "Transparent",
+    description: "Clear, upfront pricing with no hidden fees.",
+  },
+  {
+    Icon: GuaranteedIcon,
+    standard: "Guaranteed",
+    description: "Industry-leading warranties on all parts and labor.",
+  },
+];
+
 export {
   FooterLinks,
   NavbarLinks,
@@ -164,5 +191,6 @@ export {
   PremiumComponentsLists,
   ReviewList,
   ServiceArticleLists,
+  StandardsList,
   WhyChooseIplumbReasons,
 };
