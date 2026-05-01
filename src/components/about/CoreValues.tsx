@@ -7,7 +7,7 @@ import { CoreValuesCard } from "./ui/CoreValuesCard";
 
 export const CoreValues: React.FC = () => {
   return (
-    <section className="flex flex-col gap-5 bg-[#F3F4F5] px-8 pt-10">
+    <section className="flex flex-col gap-5 bg-[#F3F4F5] px-8 py-10">
       <div className="flex flex-col items-center justify-center gap-4">
         <h1 className="font-manrope text-3xl font-bold text-[#002046]">
           Our Core Values
