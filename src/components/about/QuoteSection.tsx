@@ -19,4 +19,3 @@ export const QuoteSection: React.FC = () => {
     </section>
   );
 };
-896;
