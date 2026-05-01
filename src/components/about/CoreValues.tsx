@@ -7,12 +7,12 @@ import { CoreValuesCard } from "./ui/CoreValuesCard";
 
 export const CoreValues: React.FC = () => {
   return (
-    <section className="flex flex-col gap-5 bg-[#F3F4F5] px-8">
+    <section className="flex flex-col gap-5 bg-[#F3F4F5] px-8 pt-10">
       <div className="flex flex-col items-center justify-center gap-4">
         <h1 className="font-manrope text-3xl font-bold text-[#002046]">
           Our Core Values
         </h1>
-        <p className="w-[561.34px] text-center leading-6 text-[#44474E]">
+        <p className="text-center leading-6 text-[#44474E] md:w-[561.34px]">
           The principles that guide every weld, every connection, and every
           client interaction.
         </p>
@@ -20,7 +20,7 @@ export const CoreValues: React.FC = () => {
       <div className="flex flex-col gap-8">
         {/* 1st core values  */}
         <div className="flex flex-col gap-4 lg:flex-row">
-          <div className="h-[298.01px] rounded-lg border border-[#C4C6CF] bg-white p-4 shadow-sm md:w-[702.67px] md:p-8 lg:w-[802.67px]">
+          <div className="h-[298.01px] rounded-lg border border-[#C4C6CF] bg-white p-4 shadow-sm md:w-[702.67px] md:p-8 xl:w-[802.67px]">
             <div className="flex flex-col gap-1 md:gap-4">
               <UnCompromising
                 color="#AF2B3E"
@@ -29,7 +29,7 @@ export const CoreValues: React.FC = () => {
               <h1 className="font-manrope font-semibold text-[#002046] md:text-2xl">
                 Uncompromising Precision
               </h1>
-              <p className="lg:w-[736.67px]">
+              <p className="xl:w-[736.67px]">
                 We believe that near-enough is never enough. Our technicians
                 operate with a jeweler's focus, ensuring that every fitting is
                 perfect and every system is optimized for lifelong performance.
@@ -70,7 +70,7 @@ modern innovation to solve today's
 complex plumbing challenges."
             descriptionTextColor="text-[#44474E]"
           />
-          <div className="technological_mastery-bg flex flex-col items-start justify-end gap-2 rounded-lg px-8 py-8 md:w-[802.67px]">
+          <div className="technological_mastery-bg flex flex-col items-start justify-end gap-2 rounded-lg px-8 py-8 md:w-[702.67px] xl:w-[802.67px]">
             <h1 className="font-manrope text-2xl font-semibold text-white">
               Technological Mastery
             </h1>
