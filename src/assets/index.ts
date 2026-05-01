@@ -1,4 +1,5 @@
-import IplumbLogo from "./general/iplumb_logo.jpg";
+import Narrate from "./about/Narrate.png";
+import IplumbLogo from "./general/iplumb_logo.png";
 import BackgroundImage from "./home/backgroundImage.png";
 import WhyChooseIplumbImage from "./home/WhyChooseIplumb.png";
 import ConstructionImage from "./services/Construction.png";
@@ -12,6 +13,7 @@ export {
   ConstructionImage,
   EmergencyRepairImage,
   IplumbLogo,
+  Narrate,
   PreventiveCareImg,
   ProjectManagementImg,
   SysInstallImg,

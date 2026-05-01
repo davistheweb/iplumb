@@ -29,7 +29,7 @@ const NavbarLinks: INavbarLinks[] = [
     name: "PRODUCTS",
     href: "/products",
   },
-  { name: "COMMERCIAL", href: "/commercial" },
+  // { name: "COMMERCIAL", href: "/commercial" },
   { name: "ABOUT US", href: "/about" },
   { name: "CONTACT", href: "/contact" },
 ];

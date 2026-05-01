@@ -5,7 +5,7 @@ import CustomBookIcon from "../icons/CustomBookIcon";
 export const Hero: React.FC = () => {
   return (
     <section className="hero-background flex h-200 w-full items-center px-8 pt-25">
-      <div className="5 flex w-full flex-col gap-5 p-0">
+      <div className="flex w-full flex-col gap-5 p-0">
         <div className="flex w-full flex-col gap-4">
           <h1 className="hidden leading-5 text-[#EF8300] md:block">
             CRAFTSMANSHIP MEETS PRECISION

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
 @import "tailwindcss";
 
 @layer utilities {
@@ -12,5 +13,15 @@
       url("../assets/home/backgroundImage.png");
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  .about_hero-background {
+    background-image: url("../assets//about/aboutHeroBgImg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .font-manrope {
+    font-family: "Manrope", sans-serif;
   }
 }
