@@ -72,5 +72,13 @@ declare global {
   }
 
   type TStandardsCardProps = IStandardsList;
+  interface IAboutMasters {
+    masterImg: StaticImport;
+    name: string;
+    position: string;
+    about: string;
+  }
+
+  type TAboutMastersCardProps = IAboutMasters;
 }
 export {};

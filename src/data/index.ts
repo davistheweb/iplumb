@@ -1,5 +1,8 @@
 import {
   EmergencyRepairImage,
+  MstDavid,
+  MstMarcus,
+  MstSarah,
   PreventiveCareImg,
   SysInstallImg,
 } from "@/assets";
@@ -184,7 +187,32 @@ const StandardsList: IStandardsList[] = [
   },
 ];
 
+const AboutMasters: IAboutMasters[] = [
+  {
+    masterImg: MstMarcus,
+    name: "Marcus Thorne",
+    position: "Operations Director",
+    about:
+      "Strategic lead for all major commercial infrastructures and logistics management.",
+  },
+  {
+    masterImg: MstSarah,
+    name: "Sarah Chen",
+    position: "Lead Systems Engineer",
+    about:
+      "Expert in hydraulic modeling and sustainable water management systems.",
+  },
+  {
+    masterImg: MstDavid,
+    name: "David Russo",
+    position: "Master Field Specialist",
+    about:
+      "30 years of on-site experience, specializing in heritage property restoration.",
+  },
+];
+
 export {
+  AboutMasters,
   FooterLinks,
   NavbarLinks,
   PlumbingServicesLists,
