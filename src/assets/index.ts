@@ -1,6 +1,7 @@
 import MstDavid from "./about/David.png";
 import MstMarcus from "./about/Marcus.png";
 import Narrate from "./about/Narrate.png";
+import reach from "./about/reach.png";
 import MstSarah from "./about/Sarah.png";
 import IplumbLogo from "./general/iplumb_logo.png";
 import BackgroundImage from "./home/backgroundImage.png";
@@ -24,4 +25,5 @@ export {
   ProjectManagementImg,
   SysInstallImg,
   WhyChooseIplumbImage,
+  reach,
 };

@@ -30,4 +30,10 @@
     background-size: cover;
     height: 300px;
   }
+  .bg-compass {
+    background-image: url("../assets//about/reach.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
 }

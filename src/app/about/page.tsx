@@ -3,6 +3,7 @@ import { CoreValues } from "@/components/about/CoreValues";
 import { MeetTheMasters } from "@/components/about/MeetTheMasters";
 import { Narrative } from "@/components/about/Narrative";
 import { QuoteSection } from "@/components/about/QuoteSection";
+import { ReachOutSection } from "@/components/about/ReachOutSection";
 
 export default function About() {
   return (
@@ -12,6 +13,7 @@ export default function About() {
       <CoreValues />
       <QuoteSection />
       <MeetTheMasters />
+      <ReachOutSection />
     </div>
   );
 }
