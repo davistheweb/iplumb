@@ -1,4 +1,5 @@
 import { AboutHeroSection } from "@/components/about/AboutHeroSection";
+import { CoreValues } from "@/components/about/CoreValues";
 import { Narrative } from "@/components/about/Narrative";
 
 export default function About() {
@@ -7,6 +8,7 @@ export default function About() {
       <AboutHeroSection />
 
       <Narrative />
+      <CoreValues />
     </div>
   );
 }

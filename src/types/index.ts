@@ -1,12 +1,12 @@
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
 import { ComponentType, SVGProps } from "react";
 
-type IconType = ComponentType<
-  SVGProps<SVGSVGElement> & {
-    size?: number;
-  }
->;
 declare global {
+  type IconType = ComponentType<
+    SVGProps<SVGSVGElement> & {
+      size?: number;
+    }
+  >;
   interface INavbarLinks {
     name: string;
     href: string;
