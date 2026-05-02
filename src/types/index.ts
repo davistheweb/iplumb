@@ -80,5 +80,20 @@ declare global {
   }
 
   type TAboutMastersCardProps = IAboutMasters;
+
+  enum Category {
+    ALL = "all",
+    PIPES = "pipes",
+    FITTING = "fitting",
+    TOOLS = "tools",
+  }
+  interface IProductList {
+    productImg: StaticImport;
+    productName: string;
+    price: number;
+    about: string;
+    category: Category;
+    productLink: string;
+  }
 }
 export {};

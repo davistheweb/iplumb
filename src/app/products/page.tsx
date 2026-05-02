@@ -1,7 +1,10 @@
-import { ProductsHero } from "@/components/products-page/ProductsHero";
+import { Products } from "@/components/products/Products";
+
 
 export default function ProductsPage() {
-  <div className="h-full w-full overflow-x-hidden">
-    <ProductsHero />
-  </div>;
+ return (
+   <div className="h-full w-full overflow-x-hidden">
+     <Products />
+   </div>
+ );
 }

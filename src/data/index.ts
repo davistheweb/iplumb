@@ -1,10 +1,16 @@
 import {
+  BrassImg,
   EmergencyRepairImage,
+  FaucetImg,
   MstDavid,
   MstMarcus,
   MstSarah,
+  PipeImg,
+  PolyPipeImg,
   PreventiveCareImg,
   SysInstallImg,
+  ValveImg,
+  WrenchImg,
 } from "@/assets";
 import BookCheckIcon from "@/components/icons/BookCheckIcon";
 import CertifiedIcon from "@/components/icons/CertifiedIcon";
@@ -211,12 +217,68 @@ const AboutMasters: IAboutMasters[] = [
   },
 ];
 
+const ProductsList: IProductList[] = [
+  {
+    productImg: PipeImg,
+    productName: "Elite Copper L-Pipe",
+    price: 42.0,
+    about:
+      "High-purity copper piping designed for extreme pressure and durability.",
+    category: Category.PIPES,
+    productLink: "#",
+  },
+  {
+    productImg: WrenchImg,
+    productName: 'Pro Grip 14" Wrench',
+    price: 128.5,
+    about:
+      "Forged steel adjustable wrench with ergonomic grip for precision work.",
+    category: Category.TOOLS,
+    productLink: "#",
+  },
+  {
+    productImg: BrassImg,
+    productName: "Precision Brass Joint",
+    price: 18.75,
+    about:
+      "Leak-free brass fittings built for high-performance plumbing systems.",
+    category: Category.FITTING,
+    productLink: "#",
+  },
+  {
+    productImg: PolyPipeImg,
+    productName: "HDPE Poly Pipe 50m",
+    price: 210.0,
+    about:
+      "Flexible high-density polyethylene pipe ideal for water distribution.",
+    category: Category.PIPES,
+    productLink: "#",
+  },
+  {
+    productImg: ValveImg,
+    productName: "Master Shut-off Valve",
+    price: 89.9,
+    about: "Durable stainless steel valve for precise water flow control.",
+    category: Category.FITTING,
+    productLink: "#",
+  },
+  {
+    productImg: FaucetImg,
+    productName: "Titan Kitchen Mixer",
+    price: 345.0,
+    about: "Modern kitchen faucet with smooth control and premium finish.",
+    category: Category.FITTING,
+    productLink: "#",
+  },
+];
+
 export {
   AboutMasters,
   FooterLinks,
   NavbarLinks,
   PlumbingServicesLists,
   PremiumComponentsLists,
+  ProductsList,
   ReviewList,
   ServiceArticleLists,
   StandardsList,
