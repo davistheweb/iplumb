@@ -27,6 +27,7 @@ import SpannerIcon from "@/components/icons/SpannerIcon";
 import TransparentIcon from "@/components/icons/TransparentIcon";
 import TrustCheckIcon from "@/components/icons/TrustCheckIcon";
 import WarrantyIcon from "@/components/icons/WarrantyIcon";
+import { ProductCategory } from "@/types";
 import { HeaterIcon } from "lucide-react";
 
 const NavbarLinks: INavbarLinks[] = [
@@ -224,7 +225,7 @@ const ProductsList: IProductList[] = [
     price: 42.0,
     about:
       "High-purity copper piping designed for extreme pressure and durability.",
-    category: Category.PIPES,
+    productCategory: ProductCategory.PIPES,
     productLink: "#",
   },
   {
@@ -233,7 +234,7 @@ const ProductsList: IProductList[] = [
     price: 128.5,
     about:
       "Forged steel adjustable wrench with ergonomic grip for precision work.",
-    category: Category.TOOLS,
+    productCategory: ProductCategory.TOOLS,
     productLink: "#",
   },
   {
@@ -242,7 +243,7 @@ const ProductsList: IProductList[] = [
     price: 18.75,
     about:
       "Leak-free brass fittings built for high-performance plumbing systems.",
-    category: Category.FITTING,
+    productCategory: ProductCategory.FITTING,
     productLink: "#",
   },
   {
@@ -251,7 +252,7 @@ const ProductsList: IProductList[] = [
     price: 210.0,
     about:
       "Flexible high-density polyethylene pipe ideal for water distribution.",
-    category: Category.PIPES,
+    productCategory: ProductCategory.PIPES,
     productLink: "#",
   },
   {
@@ -259,7 +260,7 @@ const ProductsList: IProductList[] = [
     productName: "Master Shut-off Valve",
     price: 89.9,
     about: "Durable stainless steel valve for precise water flow control.",
-    category: Category.FITTING,
+    productCategory: ProductCategory.FITTING,
     productLink: "#",
   },
   {
@@ -267,13 +268,30 @@ const ProductsList: IProductList[] = [
     productName: "Titan Kitchen Mixer",
     price: 345.0,
     about: "Modern kitchen faucet with smooth control and premium finish.",
-    category: Category.FITTING,
+    productCategory: ProductCategory.FITTING,
     productLink: "#",
+  },
+];
+
+const CategoryList: ICategoryList[] = [
+  {
+    categoryName: "All Products",
+    productCategory: ProductCategory.ALL,
+  },
+  {
+    categoryName: "Pipes",
+    productCategory: ProductCategory.PIPES,
+  },
+  { categoryName: "Fittings", productCategory: ProductCategory.FITTING },
+  {
+    categoryName: "Tools",
+    productCategory: ProductCategory.TOOLS,
   },
 ];
 
 export {
   AboutMasters,
+  CategoryList,
   FooterLinks,
   NavbarLinks,
   PlumbingServicesLists,

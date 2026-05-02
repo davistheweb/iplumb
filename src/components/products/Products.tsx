@@ -1,3 +1,5 @@
+import { ProductsVIew } from "./ProductsVIew";
+
 export const Products: React.FC = () => {
   return (
     <section className="flex flex-col gap-5 px-8 py-25">
@@ -8,6 +10,7 @@ export const Products: React.FC = () => {
           applications. Curated for durability and modern standards.
         </p>
       </div>
+      <ProductsVIew />
     </section>
   );
 };

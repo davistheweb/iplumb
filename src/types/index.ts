@@ -81,19 +81,26 @@ declare global {
 
   type TAboutMastersCardProps = IAboutMasters;
 
-  enum Category {
-    ALL = "all",
-    PIPES = "pipes",
-    FITTING = "fitting",
-    TOOLS = "tools",
-  }
   interface IProductList {
     productImg: StaticImport;
     productName: string;
     price: number;
     about: string;
-    category: Category;
+    productCategory: ProductCategory;
     productLink: string;
   }
+
+  type TProductCardProps = Omit<IProductList, "productCategory">;
+
+  interface ICategoryList extends Pick<IProductList, "productCategory"> {
+    categoryName: string;
+  }
 }
-export {};
+
+enum ProductCategory {
+  ALL = "all",
+  PIPES = "pipes",
+  FITTING = "fitting",
+  TOOLS = "tools",
+}
+export { ProductCategory };
