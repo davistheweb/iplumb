@@ -6,7 +6,7 @@ import { WhyChooseIplumb } from "@/components/landing/WhyChooseIplumb";
 
 export default function Home() {
   return (
-    <div className="h-full overflow-x-hidden">
+    <div className="h-full w-full overflow-x-hidden">
       <Hero />
       <ServicesSection />
       <WhyChooseIplumb />
