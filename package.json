@@ -10,6 +10,7 @@
     "format": "npx prettier --write"
   },
   "dependencies": {
+    "@hookform/resolvers": "^5.2.2",
     "axios": "^1.15.2",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
@@ -19,10 +20,12 @@
     "radix-ui": "^1.4.3",
     "react": "19.2.4",
     "react-dom": "19.2.4",
+    "react-hook-form": "^7.75.0",
     "react-redux": "^9.2.0",
     "redux-persist": "^6.0.0",
     "shadcn": "^4.6.0",
-    "tailwind-merge": "^3.5.0"
+    "tailwind-merge": "^3.5.0",
+    "zod": "^4.4.2"
   },
   "devDependencies": {
     "@biomejs/biome": "2.2.0",

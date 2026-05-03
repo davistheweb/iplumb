@@ -1,3 +1,9 @@
-export default function Contact() {
-  return <div className="h-full w-full overflow-x-hidden"></div>;
+import { Contact } from "@/components/contact/Contact";
+
+export default function ContactPage() {
+  return (
+    <div className="h-full w-full overflow-x-hidden">
+      <Contact />
+    </div>
+  );
 }
