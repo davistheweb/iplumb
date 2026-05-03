@@ -2,17 +2,26 @@ import React from "react";
 import { Button } from "../ui/button";
 import { Input } from "../ui/input";
 import { Label } from "../ui/label";
+import {
+  Select,
+  SelectContent,
+  SelectGroup,
+  SelectItem,
+  SelectLabel,
+  SelectTrigger,
+  SelectValue,
+} from "../ui/select";
 import { Textarea } from "../ui/textarea";
 
 export const ContactForm: React.FC = () => {
   return (
-    <form className="h-[783.59px] space-y-8 rounded-lg px-10 pt-9.75 pb-14 shadow-2xl lg:w-[682.67px]">
+    <form className="w-full space-y-8 rounded-lg px-10 pt-9.75 pb-14 shadow-2xl lg:h-[783.59px] lg:w-[682.67px]">
       <h1 className="font-manrope text-[32px] font-bold text-[#002046]">
         Quick Inquiry
       </h1>
       <div className="flex flex-col gap-5">
-        <div className="flex justify-between">
-          <div className="w-[288.33px] space-y-2">
+        <div className="flex w-full flex-col justify-between md:flex-row">
+          <div className="w-full space-y-2 md:w-[288.33px]">
             <Label
               className="text-[14px] font-bold text-[#44474E]"
               htmlFor="name"
@@ -25,7 +34,7 @@ export const ContactForm: React.FC = () => {
               className="h-12.5 px-4 pt-3.5 pb-3.75"
             />
           </div>
-          <div className="w-[288.33px] space-y-2">
+          <div className="space-y-2 md:w-[288.33px]">
             <Label
               className="text-[14px] font-bold text-[#44474E]"
               htmlFor="email"
@@ -39,8 +48,8 @@ export const ContactForm: React.FC = () => {
             />
           </div>
         </div>
-        <div className="flex justify-between">
-          <div className="w-[288.33px] space-y-2">
+        <div className="flex flex-col justify-between md:flex-row">
+          <div className="space-y-2 md:w-[288.33px]">
             <Label
               className="text-[14px] font-bold text-[#44474E]"
               htmlFor="phone"
@@ -53,18 +62,31 @@ export const ContactForm: React.FC = () => {
               className="h-12.5 px-4 pt-3.5 pb-3.75"
             />
           </div>
-          <div className="w-[288.33px] space-y-2">
+          <div className="space-y-2 md:w-[288.33px]">
             <Label
               className="text-[14px] font-bold text-[#44474E]"
               htmlFor="service_type"
             >
               SERVICE TYPE
             </Label>
-            <Input
+            <Select>
+              <SelectTrigger className="h-12.5! w-full px-4 pt-3.5 pb-3.75">
+                <SelectValue placeholder="Residential Plumbing" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectGroup>
+                  <SelectLabel>SERVICE TYPE</SelectLabel>
+                  <SelectItem value="residential_plumbing">
+                    Residential Plumbing
+                  </SelectItem>
+                </SelectGroup>
+              </SelectContent>
+            </Select>
+            {/* <Input
               placeholder="Residential Plumbing"
               id="service_type"
               className="h-12.5 px-4 pt-3.5 pb-3.75"
-            />
+            /> */}
           </div>
         </div>
         <div className="w-full space-y-2">
@@ -94,16 +116,18 @@ export const ContactForm: React.FC = () => {
           />
         </div>
       </div>
-      <div className="flex w-full gap-3">
+      <div className="flex w-full items-center gap-3">
         <Input
           type="checkbox"
           className="h-5 w-5"
         />
-        I agree to the
-        <span className="text-[#AF2B3E] underline">Terms of Service</span>
-        and privacy policy.
+        <p className="text-xs md:text-[16px]">
+          I agree to the{" "}
+          <span className="text-[#AF2B3E] underline">Terms of Service</span> and
+          privacy policy.
+        </p>
       </div>
-      <Button className="h-16.5 w-[350.72px] cursor-pointer rounded-md bg-[#EF8300] py-4 text-white md:w-[424.72px]">
+      <Button className="h-16.5 cursor-pointer rounded-md bg-[#EF8300] py-4 font-semibold text-white md:w-[424.72px] md:text-[24px]">
         Send Secure Inquiry
       </Button>
     </form>

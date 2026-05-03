@@ -42,7 +42,7 @@ export const ConstructionAndDevelopment: React.FC = () => {
             <Image
               src={ProjectManagementImg}
               alt="project management"
-              className="rounded-lg h-74.5"
+              className="h-74.5 rounded-lg"
             />
             <div className="absolute bottom-0 space-y-4 p-8">
               <h1 className="font-bold text-white">Project Management</h1>
