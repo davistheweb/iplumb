@@ -54,6 +54,7 @@ export const Narrative: React.FC = () => {
           src={Narrate}
           alt="narrate"
           className="rounded-4xl"
+          // h-[585.96px] w-[500px]
         />
         <div className="absolute -bottom-2 -left-6 flex h-33.5 w-50 flex-col gap-2 rounded-xl bg-[#FFFFFF] py-6 pr-[50.36px] pl-6 shadow-2xl">
           <CertifiedIcon

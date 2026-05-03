@@ -2,8 +2,11 @@ import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/ui/Footer";
 import { ReachOut } from "@/components/ui/ReachOut";
 import type { Metadata } from "next";
-import { Work_Sans } from "next/font/google";
+import { Work_Sans, Geist } from "next/font/google";
 import "./globals.css";
+import { cn } from "@/lib/utils";
+
+const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 
 const wrk_sans = Work_Sans({
   subsets: ["latin"],
@@ -22,7 +25,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${wrk_sans.className} h-full antialiased`}
+      className={cn("h-full", "antialiased", wrk_sans.className, "font-sans", geist.variable)}
     >
       <body className="relative flex w-full max-w-506 flex-col items-center justify-center overflow-x-hidden">
         <Navbar />
