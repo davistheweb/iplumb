@@ -4,7 +4,7 @@ import { ContactForm } from "./ContactForm";
 
 export const Contact: React.FC = () => {
   return (
-    <section className="flex w-full flex-col gap-5 px-8 pt-25">
+    <section className="flex w-full flex-col gap-5 px-4 pt-25 md:px-8">
       <div className="flex w-full flex-col gap-6 lg:flex-row">
         <div className="h-[839.57px] space-y-8 lg:w-[469.33px]">
           <h1 className="font-manrope text-2xl font-extrabold text-[#002046] md:text-5xl">

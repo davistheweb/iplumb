@@ -33,6 +33,13 @@
     background-size: cover;
     background-position: center;
   }
+
+  .book_service_bg {
+    background-image: url("../assets/book-service/BookServiceImg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
 }
 
 @theme inline {

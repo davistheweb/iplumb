@@ -3,6 +3,7 @@ import MstMarcus from "./about/Marcus.png";
 import Narrate from "./about/Narrate.jpg";
 import reach from "./about/reach.png";
 import MstSarah from "./about/Sarah.png";
+import BookServiceImg from "./book-service/BookServiceImg.png";
 import IplumbLogo from "./general/iplumb_logo.png";
 import BackgroundImage from "./home/backgroundImage.png";
 import WhyChooseIplumbImage from "./home/WhyChooseIplumb.jpg";
@@ -20,6 +21,7 @@ import SysInstallImg from "./services/SysInstallImg.png";
 
 export {
   BackgroundImage,
+  BookServiceImg,
   BrassImg,
   ConstructionImage,
   EmergencyRepairImage,
