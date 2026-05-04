@@ -49,7 +49,7 @@ export const ProductsVIew: React.FC = () => {
           </p>
         </div>
       </aside>
-      <div className="grid grid-cols-1 place-items-center gap-5 space-y-5 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="grid grid-cols-1 justify-items-center gap-5 space-y-5 sm:grid-cols-2 lg:grid-cols-3">
         {filteredProductCategory.map(
           ({ productImg, productName, price, about, productLink }, i) => (
             <ProductCard

@@ -1,4 +1,4 @@
-import { FounderImage, Narrate, TeamImage } from "@/assets";
+import { TeamImage } from "@/assets";
 import Image from "next/image";
 
 export const MeetTheMasters: React.FC = () => {
@@ -22,14 +22,14 @@ export const MeetTheMasters: React.FC = () => {
         </div>
       </div>
       <div className="relative flex flex-col items-center justify-center gap-5 lg:flex-row">
-        <div className="relative h-115 w-87.5 sm:w-xl md:h-156 lg:w-[602.66px]">
+        <div className="relative h-115 md:h-156">
           <Image
             src={TeamImage}
             alt="construction"
             className="h-115 rounded-2xl md:h-156"
           />
         </div>
-        <div className="flex h-156 w-87.5 flex-col items-center justify-between sm:w-xl lg:w-[300.33px]">
+        {/* <div className="flex h-156 w-87.5 flex-col items-center justify-between sm:w-xl lg:w-[300.33px]">
           <div className="relative h-75 w-full">
             <Image
               src={FounderImage}
@@ -44,7 +44,7 @@ export const MeetTheMasters: React.FC = () => {
               className="h-74.5 rounded-lg"
             />
           </div>
-        </div>
+        </div> */}
       </div>
       {/* Previous Ui  */}
       {/* <div className="grid grid-cols-1 place-items-center gap-5 md:grid-cols-2 lg:grid-cols-3">
