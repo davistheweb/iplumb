@@ -141,11 +141,14 @@ export const BookServiceForm: React.FC = () => {
         </Button>
         <a
           href="https://wa.me/+2348170740048"
-          className="h-15 w-full cursor-pointer flex items-center gap-4 justify-center rounded-xl bg-[#EF8300] py-4 text-center text-[18px] font-bold text-white lg:w-125.5"
+          className="flex h-15 w-full cursor-pointer items-center justify-center gap-4 rounded-xl bg-[#EF8300] py-4 text-center text-[18px] font-bold text-white lg:w-125.5"
         >
           Chat On WhatsApp
           <span>
-            <IoLogoWhatsapp size={20} color="green" />
+            <IoLogoWhatsapp
+              size={20}
+              color="green"
+            />
           </span>
         </a>
         <p className="flex items-center gap-1 text-center text-xs text-[#44474E]">

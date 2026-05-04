@@ -16,7 +16,7 @@ export const ProductCard: React.FC<TProductCardProps> = ({
       className="h-64 rounded-md"
     />
     <div className="space-y-4 px-6 py-6">
-      <div className="flex flex-col space-y-3 justify-between">
+      <div className="flex flex-col justify-between space-y-3">
         <h1 className="font-manrope text-[14px] text-[#1B365D]">
           {productName}
         </h1>
