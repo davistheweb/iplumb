@@ -85,7 +85,7 @@ declare global {
     productImg: StaticImport;
     productName: string;
     price: number;
-    about: string;
+    about?: string;
     productCategory: ProductCategory;
     productLink: string;
   }

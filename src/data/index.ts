@@ -1,16 +1,15 @@
 import {
-  BrassImg,
+  AcryLicBathtub,
+  BrimixShowerMixer,
+  BrimixShowerSet,
   EmergencyRepairImage,
-  FaucetImg,
+  JacuzziBathtub,
   MstDavid,
   MstMarcus,
   MstSarah,
-  PipeImg,
-  PolyPipeImg,
   PreventiveCareImg,
+  SoapDishHolder,
   SysInstallImg,
-  ValveImg,
-  WrenchImg,
 } from "@/assets";
 import BookCheckIcon from "@/components/icons/BookCheckIcon";
 import CertifiedIcon from "@/components/icons/CertifiedIcon";
@@ -225,57 +224,53 @@ const AboutMasters: IAboutMasters[] = [
 
 const ProductsList: IProductList[] = [
   {
-    productImg: PipeImg,
-    productName: "Elite Copper L-Pipe",
-    price: 42.0,
-    about:
-      "High-purity copper piping designed for extreme pressure and durability.",
-    productCategory: ProductCategory.PIPES,
-    productLink: "#",
+    productImg: AcryLicBathtub,
+    productName: "Black freestanding acrylic bathtub",
+    price: 380000,
+
+    productCategory: ProductCategory.FITTING,
+    productLink: "https://store.aliconnects.com/vendor.php?slug=iplumb-store",
   },
   {
-    productImg: WrenchImg,
-    productName: 'Pro Grip 14" Wrench',
-    price: 128.5,
-    about:
-      "Forged steel adjustable wrench with ergonomic grip for precision work.",
+    productImg: JacuzziBathtub,
+    productName: "White rectangular Couple Massage Jacuzzi bathtub",
+    price: 750000,
+
+    productCategory: ProductCategory.FITTING,
+    productLink: "https://store.aliconnects.com/vendor.php?slug=iplumb-store",
+  },
+  {
+    productImg: BrimixShowerMixer,
+    productName: "Black Brimix Shower Mixer Set",
+    price: 37000,
+
     productCategory: ProductCategory.TOOLS,
-    productLink: "#",
+    productLink: "https://store.aliconnects.com/vendor.php?slug=iplumb-store",
   },
   {
-    productImg: BrassImg,
-    productName: "Precision Brass Joint",
-    price: 18.75,
-    about:
-      "Leak-free brass fittings built for high-performance plumbing systems.",
+    productImg: BrimixShowerSet,
+    productName: "Brimiz Anti-rust Showerset",
+    price: 32000,
+
     productCategory: ProductCategory.FITTING,
-    productLink: "#",
+    productLink: "https://store.aliconnects.com/vendor.php?slug=iplumb-store",
   },
   {
-    productImg: PolyPipeImg,
-    productName: "HDPE Poly Pipe 50m",
-    price: 210.0,
-    about:
-      "Flexible high-density polyethylene pipe ideal for water distribution.",
-    productCategory: ProductCategory.PIPES,
-    productLink: "#",
-  },
-  {
-    productImg: ValveImg,
-    productName: "Master Shut-off Valve",
-    price: 89.9,
-    about: "Durable stainless steel valve for precise water flow control.",
+    productImg: SoapDishHolder,
+    productName: "Soap Dish Holder",
+    price: 4500,
+
     productCategory: ProductCategory.FITTING,
-    productLink: "#",
+    productLink: "https://store.aliconnects.com/vendor.php?slug=iplumb-store",
   },
-  {
-    productImg: FaucetImg,
-    productName: "Titan Kitchen Mixer",
-    price: 345.0,
-    about: "Modern kitchen faucet with smooth control and premium finish.",
-    productCategory: ProductCategory.FITTING,
-    productLink: "#",
-  },
+  // {
+  //   productImg: FaucetImg,
+  //   productName: "Titan Kitchen Mixer",
+  //   price: 345.0,
+  //   about: "Modern kitchen faucet with smooth control and premium finish.",
+  //   productCategory: ProductCategory.FITTING,
+  //   productLink: "https://store.aliconnects.com/vendor.php?slug=iplumb-store",
+  // },
 ];
 
 const CategoryList: ICategoryList[] = [

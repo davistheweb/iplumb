@@ -51,12 +51,12 @@ export const ProductsVIew: React.FC = () => {
       </aside>
       <div className="grid grid-cols-1 justify-items-center gap-5 space-y-5 sm:grid-cols-2 lg:grid-cols-3">
         {filteredProductCategory.map(
-          ({ productImg, productName, price, about, productLink }, i) => (
+          ({ productImg, productName, price, productLink }, i) => (
             <ProductCard
               productImg={productImg}
               productName={productName}
               price={price}
-              about={about}
+              // about={about}
               productLink={productLink}
               key={i}
             />
