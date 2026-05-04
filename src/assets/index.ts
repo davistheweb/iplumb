@@ -1,8 +1,10 @@
 import MstDavid from "./about/David.png";
+import FounderImage from "./about/founder.jpg";
 import MstMarcus from "./about/Marcus.png";
 import Narrate from "./about/Narrate.jpg";
 import reach from "./about/reach.png";
 import MstSarah from "./about/Sarah.png";
+import TeamImage from "./about/Team.jpg";
 import BookServiceImg from "./book-service/BookServiceImg.png";
 import IplumbLogo from "./general/iplumb_logo.png";
 import BackgroundImage from "./home/backgroundImage.png";
@@ -26,6 +28,7 @@ export {
   ConstructionImage,
   EmergencyRepairImage,
   FaucetImg,
+  FounderImage,
   IplumbLogo,
   MstDavid,
   MstMarcus,
@@ -36,6 +39,7 @@ export {
   PreventiveCareImg,
   ProjectManagementImg,
   SysInstallImg,
+  TeamImage,
   ValveImg,
   WhyChooseIplumbImage,
   WrenchImg,

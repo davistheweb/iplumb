@@ -1,5 +1,5 @@
-import { AboutMasters } from "@/data";
-import { AboutMastersCard } from "./ui/AboutMastersCard";
+import { FounderImage, Narrate, TeamImage } from "@/assets";
+import Image from "next/image";
 
 export const MeetTheMasters: React.FC = () => {
   return (
@@ -21,7 +21,33 @@ export const MeetTheMasters: React.FC = () => {
           </a>
         </div>
       </div>
-      <div className="grid grid-cols-1 place-items-center gap-5 md:grid-cols-2 lg:grid-cols-3">
+      <div className="relative flex flex-col items-center justify-center gap-5 lg:flex-row">
+        <div className="relative h-115 w-87.5 sm:w-xl md:h-156 lg:w-[602.66px]">
+          <Image
+            src={TeamImage}
+            alt="construction"
+            className="h-115 rounded-2xl md:h-156"
+          />
+        </div>
+        <div className="flex h-156 w-87.5 flex-col items-center justify-between sm:w-xl lg:w-[300.33px]">
+          <div className="relative h-75 w-full">
+            <Image
+              src={FounderImage}
+              alt="project management"
+              className="h-74.5 rounded-lg"
+            />
+          </div>
+          <div className="relative h-75 w-full">
+            <Image
+              src={Narrate}
+              alt="project management"
+              className="h-74.5 rounded-lg"
+            />
+          </div>
+        </div>
+      </div>
+      {/* Previous Ui  */}
+      {/* <div className="grid grid-cols-1 place-items-center gap-5 md:grid-cols-2 lg:grid-cols-3">
         {AboutMasters.map(({ masterImg, name, position, about }, i) => (
           <AboutMastersCard
             key={i}
@@ -31,7 +57,7 @@ export const MeetTheMasters: React.FC = () => {
             about={about}
           />
         ))}
-      </div>
+      </div> */}
     </section>
   );
 };
