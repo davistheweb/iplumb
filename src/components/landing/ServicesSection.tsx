@@ -18,7 +18,7 @@ export const ServicesSection: React.FC = () => {
         <div className="hidden h-full w-full items-center justify-end gap-1 align-middle md:flex">
           <Link
             className="text-[#AF2B3E]"
-            href="#"
+            href="/services"
           >
             EXPLORE ALL SERVICES{" "}
           </Link>{" "}

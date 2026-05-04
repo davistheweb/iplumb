@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const ReachOutSection: React.FC = () => {
   return (
     <section className="flex items-center justify-center px-8 py-10">
@@ -12,12 +14,12 @@ export const ReachOutSection: React.FC = () => {
             craftsmanship to your doorstep.
           </p>
           <div className="flex flex-col gap-4 lg:flex-row">
-            <a
-              href="#"
+            <Link
+              href="/book-service"
               className="w-fit rounded-xl bg-[#FD6673] px-8 py-4.5 text-white md:px-12"
             >
               Get a Custom Quote
-            </a>
+            </Link>
             <a
               href="#"
               className="w-fit rounded-xl border border-[#87A0CD] px-4 py-4.5 text-white md:px-12"

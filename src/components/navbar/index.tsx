@@ -2,6 +2,7 @@
 
 import { NavbarLinks } from "@/data";
 import { Menu } from "lucide-react";
+import Link from "next/link";
 import React, { useState } from "react";
 import { Logo } from "../ui/Logo";
 import { MobileNav } from "./MobileNav";
@@ -33,9 +34,12 @@ export const Navbar: React.FC = () => {
       {/* Request Quote Button  */}
 
       <div className="hidden lg:flex">
-        <button className="cursor-pointer rounded-sm bg-[#EF8300] px-4 py-2 font-bold text-white uppercase">
+        <Link
+          href="/book-service"
+          className="cursor-pointer rounded-sm bg-[#EF8300] px-4 py-2 font-bold text-white uppercase"
+        >
           Request Quote
-        </button>
+        </Link>
       </div>
 
       <MobileNav

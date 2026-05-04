@@ -1,4 +1,4 @@
-import { NavbarLinks } from "@/data";
+import { MobileNavbarLink } from "@/data";
 import { AnimatePresence, motion } from "framer-motion";
 import { X } from "lucide-react";
 import React, { useEffect, useRef } from "react";
@@ -44,7 +44,7 @@ export const MobileNav: React.FC<{
               </button>
               <div className="mt-10 flex justify-center">
                 <ul className="flex flex-col space-y-8">
-                  {NavbarLinks.map(({ name, href }, i) => (
+                  {MobileNavbarLink.map(({ name, href }, i) => (
                     <li key={i}>
                       <NavLinks
                         href={href}

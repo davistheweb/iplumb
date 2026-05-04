@@ -1,6 +1,7 @@
 import { ConstructionImage, ProjectManagementImg } from "@/assets";
 import { ArrowRight, CompassIcon, MoveUpRight } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export const ConstructionAndDevelopment: React.FC = () => {
   return (
@@ -28,13 +29,13 @@ export const ConstructionAndDevelopment: React.FC = () => {
               Comprehensive general contracting for commercial developments and
               luxury residential builds.
             </p>
-            <a
-              href="#"
+            <Link
+              href="/book-service"
               className="flex w-fit items-center justify-center gap-1 rounded-lg bg-[#EF8300] px-8 py-4 text-[16px] text-white"
             >
               Consult Project
               <ArrowRight size={20} />
-            </a>
+            </Link>
           </div>
         </div>
         <div className="flex h-156 w-87.5 flex-col items-center justify-between sm:w-xl lg:w-[389.33px]">

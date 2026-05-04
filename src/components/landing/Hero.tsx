@@ -21,13 +21,13 @@ export const Hero: React.FC = () => {
         </div>
         <div className="flex flex-col items-start gap-4 md:flex-row">
           <Link
-            href="#"
+            href="/book-service"
             className="flex items-center gap-1 rounded-lg bg-[#EF8300] px-8 pt-[17.5px] pb-4.5 text-white"
           >
             Book a Service <CustomBookIcon size={15} />
           </Link>
           <Link
-            href="#"
+            href="/products"
             className="rounded-sm bg-[#002046] px-8 pt-[17.5px] pb-4.5 text-white"
           >
             View Products

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export const PlumbingServices: React.FC<TPlumbingServicesProps> = ({
@@ -28,12 +29,12 @@ export const PlumbingServices: React.FC<TPlumbingServicesProps> = ({
       <div className="flex flex-col space-y-5">
         <h1 className="text-start font-semibold text-[#002046]">{service}</h1>
         <p className="text-[#44474E]">{description}</p>
-        <a
+        <Link
           href={link}
           className="h-12 w-79.5 rounded-xl bg-[#EF8300] px-4 py-3 text-center text-white"
         >
           Book Now
-        </a>
+        </Link>
       </div>
     </div>
   );

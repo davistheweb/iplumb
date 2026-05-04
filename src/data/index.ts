@@ -44,6 +44,11 @@ const NavbarLinks: INavbarLinks[] = [
   { name: "CONTACT", href: "/contact" },
 ];
 
+const MobileNavbarLink: INavbarLinks[] = [
+  ...NavbarLinks,
+  { name: "Request Quote", href: "/book-service" },
+];
+
 const ServiceArticleLists: IServiceArticleLists[] = [
   {
     Icon: PlumberWrenchesIcon,
@@ -151,7 +156,7 @@ const PlumbingServicesLists: IPlumbingServices[] = [
     service: "Emergency Repairs",
     description:
       "Rapid response for leak detection, pipe bursts, and fixture failures. 24/7 priority service for critical issues.",
-    link: "#",
+    link: "/book-service",
   },
   {
     Icon: PlumberSpannerIcon,
@@ -159,7 +164,7 @@ const PlumbingServicesLists: IPlumbingServices[] = [
     service: "System Installation",
     description:
       "Expert installation of water heaters, filtration systems, and premium bathroom/kitchen fixtures.",
-    link: "#",
+    link: "/book-service",
   },
   {
     Icon: BookCheckIcon,
@@ -167,7 +172,7 @@ const PlumbingServicesLists: IPlumbingServices[] = [
     service: "Preventive Care",
     description:
       "Scheduled inspections and maintenance to prevent costly future failures and optimize system efficiency.",
-    link: "#",
+    link: "/book-service",
   },
 ];
 
@@ -293,6 +298,7 @@ export {
   AboutMasters,
   CategoryList,
   FooterLinks,
+  MobileNavbarLink,
   NavbarLinks,
   PlumbingServicesLists,
   PremiumComponentsLists,
