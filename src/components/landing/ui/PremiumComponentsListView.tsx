@@ -1,11 +1,12 @@
 import { MoveUpRight } from "lucide-react";
+import Image from "next/image";
 import React from "react";
 
 export const PremiumComponentsListView: React.FC<
   TPremiumComponentsListsProps
-> = ({ Icon, name, description, link }) => {
+> = ({ Img, name, description, link }) => {
   return (
-    <div className="relative flex h-fit w-69.5 flex-col items-center justify-center gap-10 rounded-sm border border-[#E1E3E4] pb-4">
+    <div className="relative flex h-fit w-69.5 flex-col items-center justify-center gap-10 rounded-sm border border-[#E1E3E4] px-4 pb-4">
       <div className="relative flex h-66.5 w-full items-center justify-center bg-[#EDEEEF]">
         <span className="absolute top-3 right-4 cursor-pointer">
           <MoveUpRight
@@ -13,7 +14,11 @@ export const PremiumComponentsListView: React.FC<
             color="#1E3A8A"
           />
         </span>
-        <Icon size={35} />
+        <Image
+          src={Img}
+          alt="component"
+          className="h-66.5"
+        />
       </div>
       <div className="flex flex-col space-y-2">
         <h1 className="font-bold text-[#191C1D]">{name}</h1>

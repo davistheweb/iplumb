@@ -140,6 +140,7 @@ export const BookServiceForm: React.FC = () => {
           Schedule Service
         </Button>
         <a
+          target="_blank"
           href="https://wa.me/+2348170740048"
           className="flex h-15 w-full cursor-pointer items-center justify-center gap-4 rounded-xl bg-[#EF8300] py-4 text-center text-[18px] font-bold text-white lg:w-125.5"
         >

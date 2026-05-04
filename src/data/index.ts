@@ -14,20 +14,16 @@ import {
 import BookCheckIcon from "@/components/icons/BookCheckIcon";
 import CertifiedIcon from "@/components/icons/CertifiedIcon";
 import EstimatesIcon from "@/components/icons/EstimatesIcon";
-import FiltrateIcon from "@/components/icons/FiltrateIcon";
 import GuaranteedIcon from "@/components/icons/GuaranteedIcon";
-import MixerIcon from "@/components/icons/MixerIcon";
 import PlumberBuildingIcon from "@/components/icons/PlumberBuildingIcon";
 import PlumberSpannerIcon from "@/components/icons/PlumberSpannerIcon";
 import PlumberWrenchesIcon from "@/components/icons/PlumberWrenchesIcon";
 import PunctualIcon from "@/components/icons/PunctualIcon";
-import SealedPipeIcon from "@/components/icons/SealedPipeIcon";
 import SpannerIcon from "@/components/icons/SpannerIcon";
 import TransparentIcon from "@/components/icons/TransparentIcon";
 import TrustCheckIcon from "@/components/icons/TrustCheckIcon";
 import WarrantyIcon from "@/components/icons/WarrantyIcon";
 import { ProductCategory } from "@/types";
-import { HeaterIcon } from "lucide-react";
 
 const NavbarLinks: INavbarLinks[] = [
   {
@@ -98,28 +94,28 @@ const WhyChooseIplumbReasons: IWhyChooseIplumbReasons[] = [
 
 const PremiumComponentsLists: IPremiumComponentsLists[] = [
   {
-    Icon: MixerIcon,
+    Img: AcryLicBathtub,
     name: "Premium Line",
-    description: "Elite Series Mixer",
-    link: "#",
+    description: "Black freestanding acrylic bathtub",
+    link: "https://store.aliconnects.com/vendor.php?slug=iplumb-store",
   },
   {
-    Icon: HeaterIcon,
+    Img: JacuzziBathtub,
     name: "EFFICIENCY PLUS",
-    description: "Smart Water Heater",
-    link: "#",
+    description: "White rectangular Couple Massage Jacuzzi bathtub",
+    link: "https://store.aliconnects.com/vendor.php?slug=iplumb-store",
   },
   {
-    Icon: FiltrateIcon,
+    Img: BrimixShowerMixer,
     name: "MAINTENANCE",
-    description: "Flitration Core V3",
-    link: "#",
+    description: "Black Brimix Shower Mixer Set",
+    link: "https://store.aliconnects.com/vendor.php?slug=iplumb-store",
   },
   {
-    Icon: SealedPipeIcon,
+    Img: SoapDishHolder,
     name: "STRUCTURAL",
-    description: "Sealed Pipe KitII",
-    link: "#",
+    description: "Soap Dish Holder",
+    link: "https://store.aliconnects.com/vendor.php?slug=iplumb-store",
   },
 ];
 
@@ -127,13 +123,13 @@ const ReviewList: IReviewList[] = [
   {
     comment:
       "\"The most professional plumbing firm I've worked with. They managed our commercial building's system overhaul with absolute precision and kept us updated at every step.\"",
-    by: "Sarah Jenkins",
+    by: "Victoria Sule",
     position: "Facility Manager, Nexus Corp",
   },
   {
     comment:
       '"Prompt, courteous, and efficient. Iplumb handled our bathroom renovation flawlessly. The quality of the construction work is simply unmatched in the local area."',
-    by: "Michael Thorne",
+    by: "Chinyere Nwankwo",
     position: "Homeowner, River Oaks",
   },
 ];

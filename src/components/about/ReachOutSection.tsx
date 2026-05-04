@@ -20,12 +20,12 @@ export const ReachOutSection: React.FC = () => {
             >
               Get a Custom Quote
             </Link>
-            <a
-              href="#"
+            <Link
+              href="/contact"
               className="w-fit rounded-xl border border-[#87A0CD] px-4 py-4.5 text-white md:px-12"
             >
               Speak with a Consultant
-            </a>
+            </Link>
           </div>
         </div>
         <div className="bg-compass hidden w-[405.55px] rounded-lg bg-[#1B365D]/90 lg:flex"></div>

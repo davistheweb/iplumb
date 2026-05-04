@@ -35,7 +35,7 @@ declare global {
   type TWhyChooseIplumbReasonsProps = IWhyChooseIplumbReasons;
 
   interface IPremiumComponentsLists {
-    Icon: IconType;
+    Img: StaticImport;
     name: string;
     description: string;
     link: string;

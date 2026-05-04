@@ -13,10 +13,10 @@ export const PremiumComponents: React.FC = () => {
         </p>
       </div>
       <div className="grid h-full w-full grid-cols-1 place-items-center gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-        {PremiumComponentsLists.map(({ Icon, name, description, link }, i) => (
+        {PremiumComponentsLists.map(({ Img, name, description, link }, i) => (
           <PremiumComponentsListView
             key={i}
-            Icon={Icon}
+            Img={Img}
             name={name}
             description={description}
             link={link}

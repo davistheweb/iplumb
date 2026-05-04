@@ -22,11 +22,11 @@ export const MeetTheMasters: React.FC = () => {
         </div>
       </div>
       <div className="relative flex flex-col items-center justify-center gap-5 lg:flex-row">
-        <div className="relative h-115 md:h-156">
+        <div className="relative">
           <Image
             src={TeamImage}
             alt="construction"
-            className="h-115 rounded-2xl md:h-156"
+            className="rounded-2xl md:w-130"
           />
         </div>
         {/* <div className="flex h-156 w-87.5 flex-col items-center justify-between sm:w-xl lg:w-[300.33px]">
