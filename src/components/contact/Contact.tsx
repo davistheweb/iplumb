@@ -24,7 +24,7 @@ export const Contact: React.FC = () => {
                   DIRECT LINE
                 </h6>
                 <h4 className="font-manrope font-semibold text-[#002046]">
-                  +1 (800) 555-0199
+                  +2348170740048
                 </h4>
                 <p className="text-[#44474E]">
                   Available 24/7 for emergency services.
@@ -40,7 +40,7 @@ export const Contact: React.FC = () => {
                   MESSAGE US
                 </h6>
                 <h4 className="font-manrope font-semibold text-[#002046]">
-                  +1 (800) 555-0199
+                  +2348170740048
                 </h4>
                 <p className="text-[#44474E]">
                   Available 24/7 for emergency services.
@@ -53,14 +53,13 @@ export const Contact: React.FC = () => {
               </div>
               <div className="space-y-2">
                 <h6 className="text-[14px] font-bold text-[#AF2B3E]">
-                  DIRECT LINE
+                  HEADQUARTERS
                 </h6>
                 <h4 className="font-manrope font-semibold text-[#002046]">
-                  +1 (800) 555-0199
+                  Shop 29, by Holy Cross bustop, Powa Plaza, Aladinma, Owerri
+                  460231, Imo, Nigeria
                 </h4>
-                <p className="text-[#44474E]">
-                  Available 24/7 for emergency services.
-                </p>
+                <p className="text-[#44474E]">Owerri, Imo State, Nigeria</p>
               </div>
             </div>
           </div>

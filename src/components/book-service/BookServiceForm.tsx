@@ -1,6 +1,8 @@
 "use client";
 
 import { CalendarDays, LockKeyhole, MapPin, Phone, User } from "lucide-react";
+import { IoLogoWhatsapp } from "react-icons/io";
+
 import { Button } from "../ui/button";
 import { Input } from "../ui/input";
 import { Label } from "../ui/label";
@@ -137,6 +139,15 @@ export const BookServiceForm: React.FC = () => {
         <Button className="h-15 w-full cursor-pointer rounded-xl bg-[#EF8300] py-4 text-[18px] font-bold text-white lg:w-125.5">
           Schedule Service
         </Button>
+        <a
+          href="https://wa.me/+2348170740048"
+          className="h-15 w-full cursor-pointer flex items-center gap-4 justify-center rounded-xl bg-[#EF8300] py-4 text-center text-[18px] font-bold text-white lg:w-125.5"
+        >
+          Chat On WhatsApp
+          <span>
+            <IoLogoWhatsapp size={20} color="green" />
+          </span>
+        </a>
         <p className="flex items-center gap-1 text-center text-xs text-[#44474E]">
           <LockKeyhole size={12} />
           Your information is encrypted and secure.
