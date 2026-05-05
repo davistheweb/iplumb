@@ -71,7 +71,7 @@ export const ContactForm: React.FC = () => {
       console.log("Success");
       reset();
     } catch (error: any) {
-      console.log("Failed", error?.text);
+      console.log("Failed", error);
     } finally {
       setLoading(false);
     }
