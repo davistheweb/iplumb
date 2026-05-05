@@ -1,5 +1,5 @@
-import { ConstructionImage, Hotel, ProjectManagementImg } from "@/assets";
-import { ArrowRight, CompassIcon,  MoveUpRight } from "lucide-react";
+import { Hotel, ProjectManagementImg } from "@/assets";
+import { ArrowRight, CompassIcon, MoveUpRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -25,7 +25,7 @@ export const ConstructionAndDevelopment: React.FC = () => {
               FLAGSHIP SERVICE
             </span>
             <h1 className="leading-6 text-white">Full-Scale Construction</h1>
-            <p className="text-[#AF2B3E] font-bold md:w-lg">
+            <p className="font-bold text-[#AF2B3E] md:w-lg">
               Comprehensive general contracting for commercial developments and
               luxury residential builds.
             </p>
