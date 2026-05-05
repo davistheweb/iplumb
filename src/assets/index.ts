@@ -22,6 +22,7 @@ import ValveImg from "./products/ValveImg.png";
 import WrenchImg from "./products/WrenchImg.png";
 import ConstructionImage from "./services/Construction.png";
 import EmergencyRepairImage from "./services/EmergencyRepairImage.png";
+import Hotel from "./services/Hotel.jpg";
 import PreventiveCareImg from "./services/PreventiveCareImg.png";
 import ProjectManagementImg from "./services/ProjectManagement.jpg";
 import SysInstallImg from "./services/SysInstallImg.png";
@@ -37,6 +38,7 @@ export {
   EmergencyRepairImage,
   FaucetImg,
   FounderImage,
+  Hotel,
   IplumbLogo,
   JacuzziBathtub,
   MstDavid,
