@@ -56,7 +56,7 @@ export const Contact: React.FC = () => {
                   HEADQUARTERS
                 </h6>
                 <h4 className="font-manrope font-semibold text-[#002046]">
-                  Shop 29 Powa Plaza Aladinma, by Holy Cross Nustop, Powa Plaza, Aladinma, Owerri, Imo state
+                  Shop 29 Powa Plaza Aladinma, by Holy Cross Bustop, Powa Plaza, Aladinma, Owerri, Imo state
                 </h4>
                 <p className="text-[#44474E]">Owerri, Imo State, Nigeria</p>
               </div>
