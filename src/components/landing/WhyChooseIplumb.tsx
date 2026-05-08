@@ -13,7 +13,7 @@ export const WhyChooseIplumb: React.FC = () => {
           alt="construction image"
           className="w-112.5 rounded-lg"
         />
-        <div className="absolute -right-4 -bottom-4 flex h-35 w-57 flex-col items-start justify-center rounded-lg bg-[#EF8300] px-10 md:h-40 md:w-62.5">
+        <div className="absolute -right-4 -bottom-4 flex h-20 w-57 flex-col items-start justify-center rounded-lg bg-[#EF8300] px-10 md:h-40 md:w-62.5">
           <h1 className="text-[20px] font-bold text-white md:text-[40px]">
             15+
           </h1>

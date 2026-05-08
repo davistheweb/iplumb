@@ -279,6 +279,7 @@ const CategoryList: ICategoryList[] = [
     productCategory: ProductCategory.PIPES,
   },
   { categoryName: "Fittings", productCategory: ProductCategory.FITTING },
+  { categoryName: "Accessories", productCategory: ProductCategory.ACCESSORIES },
   {
     categoryName: "Tools",
     productCategory: ProductCategory.TOOLS,

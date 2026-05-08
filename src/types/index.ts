@@ -101,6 +101,7 @@ enum ProductCategory {
   ALL = "all",
   PIPES = "pipes",
   FITTING = "fitting",
+  ACCESSORIES = "accessories",
   TOOLS = "tools",
 }
 export { ProductCategory };

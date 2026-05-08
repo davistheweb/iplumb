@@ -11,8 +11,8 @@ export const Logo: React.FC = () => {
           src={IplumbLogo}
           alt="logo"
           priority
-          width={130}
-          height={135}
+          width={200}
+          height={200}
           draggable={false}
         />
       </Link>
