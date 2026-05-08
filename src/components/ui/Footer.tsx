@@ -15,7 +15,7 @@ export const Footer: React.FC = () => {
           </span>
         </p>
       </div>
-      <li className="grid list-none grid-cols-1 gap-3 md:grid-cols-3 lg:grid-cols-4">
+      {/* <li className="grid list-none grid-cols-1 gap-3 md:grid-cols-3 lg:grid-cols-4">
         {FooterLinks.map(({ name, href }, i) => (
           <Link
             key={i}
@@ -25,7 +25,7 @@ export const Footer: React.FC = () => {
             {name}
           </Link>
         ))}
-      </li>
+      </li> */}
     </div>
   );
 };
