@@ -55,6 +55,11 @@ declare global {
     href: string;
   }
 
+  interface IFooterSocialLinks {
+    Icon : IconType
+    href: string
+  }
+
   interface IPlumbingServices {
     Icon: IconType;
     img: StaticImport;

@@ -24,6 +24,9 @@ import TransparentIcon from "@/components/icons/TransparentIcon";
 import TrustCheckIcon from "@/components/icons/TrustCheckIcon";
 import WarrantyIcon from "@/components/icons/WarrantyIcon";
 import { ProductCategory } from "@/types";
+import { BsTwitterX } from "react-icons/bs";
+import { FaFacebook, FaTiktok } from "react-icons/fa";
+import { FaSquareInstagram } from "react-icons/fa6";
 
 const NavbarLinks: INavbarLinks[] = [
   {
@@ -142,6 +145,26 @@ const FooterLinks: IFooterLinks[] = [
   { name: "Terms of Service", href: "#" },
   { name: "Safety Standards", href: "#" },
   { name: "Warranty Info", href: "#" },
+];
+
+const FooterSocialLinks: IFooterSocialLinks[] = [
+  {
+    Icon: FaFacebook,
+    href: "#",
+  },
+  {
+    Icon: FaSquareInstagram,
+    href: "#",
+  },
+
+  {
+    Icon: FaTiktok,
+    href: "#",
+  },
+  {
+    Icon: BsTwitterX,
+    href: "#",
+  },
 ];
 
 const PlumbingServicesLists: IPlumbingServices[] = [
@@ -290,6 +313,7 @@ export {
   AboutMasters,
   CategoryList,
   FooterLinks,
+  FooterSocialLinks,
   MobileNavbarLink,
   NavbarLinks,
   PlumbingServicesLists,
