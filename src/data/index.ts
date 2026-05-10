@@ -154,17 +154,17 @@ const FooterSocialLinks: IFooterSocialLinks[] = [
   },
   {
     Icon: FaSquareInstagram,
-    href: "#",
+    href: "https://instagram.com/iplumb_smartsolution",
   },
 
   {
     Icon: FaTiktok,
-    href: "#",
+    href: "https://tiktok.com/@iplumb_smartsolution",
   },
-  {
-    Icon: BsTwitterX,
-    href: "#",
-  },
+  // {
+  //   Icon: BsTwitterX,
+  //   href: "#",
+  // },
 ];
 
 const PlumbingServicesLists: IPlumbingServices[] = [
