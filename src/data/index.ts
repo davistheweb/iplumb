@@ -150,7 +150,7 @@ const FooterLinks: IFooterLinks[] = [
 const FooterSocialLinks: IFooterSocialLinks[] = [
   {
     Icon: FaFacebook,
-    href: "#",
+    href: "https://www.facebook.com/share/1EtkPqR6xm/",
   },
   {
     Icon: FaSquareInstagram,
