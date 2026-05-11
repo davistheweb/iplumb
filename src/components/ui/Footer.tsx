@@ -1,11 +1,11 @@
+import { FooterSocialLinks } from "@/data";
+import Link from "next/link";
 import React from "react";
 import { Logo } from "./Logo";
-import { FooterLinks, FooterSocialLinks } from "@/data";
-import Link from "next/link";
 
 export const Footer: React.FC = () => {
   return (
-    <div className="flex w-full flex-col bg-[#F8FAFC] px-8 py-12 lg:flex-row lg:items-center lg:justify-between">
+    <div className="flex w-full flex-col gap-5 bg-[#F8FAFC] px-8 py-12 lg:flex-row lg:items-center lg:justify-between">
       <div className="flex flex-col space-y-4">
         <Logo />
         <p>
@@ -15,7 +15,7 @@ export const Footer: React.FC = () => {
           </span>
         </p>
       </div>
-      <li className="grid list-none grid-cols-1 gap-5 md:grid-cols-3 lg:grid-cols-4">
+      <li className="flex list-none gap-5">
         {FooterSocialLinks.map(({ Icon, href }, i) => (
           <Link
             key={i}
@@ -23,7 +23,6 @@ export const Footer: React.FC = () => {
             className="text-[#475569] underline"
           >
             <Icon size={30} />
-           
           </Link>
         ))}
       </li>
