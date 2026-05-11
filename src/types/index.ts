@@ -56,8 +56,8 @@ declare global {
   }
 
   interface IFooterSocialLinks {
-    Icon : IconType
-    href: string
+    Icon: IconType;
+    href: string;
   }
 
   interface IPlumbingServices {

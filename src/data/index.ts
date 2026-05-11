@@ -24,7 +24,6 @@ import TransparentIcon from "@/components/icons/TransparentIcon";
 import TrustCheckIcon from "@/components/icons/TrustCheckIcon";
 import WarrantyIcon from "@/components/icons/WarrantyIcon";
 import { ProductCategory } from "@/types";
-import { BsTwitterX } from "react-icons/bs";
 import { FaFacebook, FaTiktok } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
 
