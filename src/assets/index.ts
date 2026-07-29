@@ -21,7 +21,7 @@ import SoapDishHolder from "./products/SoapDishHolder.jpg";
 import ValveImg from "./products/ValveImg.png";
 import WrenchImg from "./products/WrenchImg.png";
 import ConstructionImage from "./services/Construction.png";
-import EmergencyRepairImage from "./services/EmergencyRepairImage.png";
+import EmergencyRepairImage from "./services/EmergencyRepairImage.jpg";
 import Hotel from "./services/Hotel.jpg";
 import PreventiveCareImg from "./services/PreventiveCareImg.png";
 import ProjectManagementImg from "./services/ProjectManagement.jpg";
