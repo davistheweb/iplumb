@@ -99,25 +99,25 @@ const PremiumComponentsLists: IPremiumComponentsLists[] = [
     Img: AcryLicBathtub,
     name: "Premium Line",
     description: "Black freestanding acrylic bathtub",
-    link: "https://store.aliconnects.com/store/vendor.php?slug=iplumb-store",
+    link: "https://store.aliconnects.com/vendor.php?slug=iplumb-store",
   },
   {
     Img: JacuzziBathtub,
     name: "EFFICIENCY PLUS",
     description: "White rectangular Couple Massage Jacuzzi bathtub",
-    link: "https://store.aliconnects.com/store/vendor.php?slug=iplumb-store",
+    link: "https://store.aliconnects.com/vendor.php?slug=iplumb-store",
   },
   {
     Img: BrimixShowerMixer,
     name: "MAINTENANCE",
     description: "Black Brimix Shower Mixer Set",
-    link: "https://store.aliconnects.com/store/vendor.php?slug=iplumb-store",
+    link: "https://store.aliconnects.com/vendor.php?slug=iplumb-store",
   },
   {
     Img: SoapDishHolder,
     name: "STRUCTURAL",
     description: "Soap Dish Holder",
-    link: "https://store.aliconnects.com/store/vendor.php?slug=iplumb-store",
+    link: "https://store.aliconnects.com/vendor.php?slug=iplumb-store",
   },
 ];
 
@@ -247,7 +247,7 @@ const ProductsList: IProductList[] = [
     price: 380000,
 
     productCategory: ProductCategory.FITTING,
-    productLink: "https://store.aliconnects.com/store/vendor.php?slug=iplumb-store",
+    productLink: "https://store.aliconnects.com/vendor.php?slug=iplumb-store",
   },
   {
     productImg: JacuzziBathtub,
@@ -255,7 +255,7 @@ const ProductsList: IProductList[] = [
     price: 750000,
 
     productCategory: ProductCategory.FITTING,
-    productLink: "https://store.aliconnects.com/store/vendor.php?slug=iplumb-store",
+    productLink: "https://store.aliconnects.com/vendor.php?slug=iplumb-store",
   },
   {
     productImg: BrimixShowerMixer,
@@ -263,7 +263,7 @@ const ProductsList: IProductList[] = [
     price: 37000,
 
     productCategory: ProductCategory.TOOLS,
-    productLink: "https://store.aliconnects.com/store/vendor.php?slug=iplumb-store",
+    productLink: "https://store.aliconnects.com/vendor.php?slug=iplumb-store",
   },
   {
     productImg: BrimixShowerSet,
@@ -271,7 +271,7 @@ const ProductsList: IProductList[] = [
     price: 32000,
 
     productCategory: ProductCategory.FITTING,
-    productLink: "https://store.aliconnects.com/store/vendor.php?slug=iplumb-store",
+    productLink: "https://store.aliconnects.com/vendor.php?slug=iplumb-store",
   },
   {
     productImg: SoapDishHolder,
@@ -279,7 +279,7 @@ const ProductsList: IProductList[] = [
     price: 4500,
 
     productCategory: ProductCategory.FITTING,
-    productLink: "https://store.aliconnects.com/store/vendor.php?slug=iplumb-store",
+    productLink: "https://store.aliconnects.com/vendor.php?slug=iplumb-store",
   },
   // {
   //   productImg: FaucetImg,
